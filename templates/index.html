@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Recommendations</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recipe Recommendations</h1>
+    <form method="post">
+        <label for="ingredients">Select ingredients:</label>
+        <select id="ingredientDropdown" name="ingredients" multiple="multiple" style="width: 100%;">
+            {% for ingredient in ingredients %}
+                <option value="{{ ingredient }}"
+                {% if ingredient in selected_ingredients %} selected {% endif %}>
+                {{ ingredient }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="dietary_restriction">Select dietary restriction:</label>
+        <select id="dietary_restriction" name="dietary_restriction">
+            <option value="no-selection" {% if selected_dietary_restriction == 'no-selection' %} selected {% endif %}>No Selection</option>
+            <option value="vegan" {% if selected_dietary_restriction == 'vegan' %} selected {% endif %}>Vegan</option>
+            <option value="vegetarian" {% if selected_dietary_restriction == 'vegetarian' %} selected {% endif %}>Vegetarian</option>
+            <option value="gluten-free" {% if selected_dietary_restriction == 'gluten-free' %} selected {% endif %}>Gluten-Free</option>
+            <option value="non-veg" {% if selected_dietary_restriction == 'non-veg' %} selected {% endif %}>Non-Veg</option>
+        </select>
+
+        <label for="pregnancy_restriction">Select pregnancy/newborn restriction:</label>
+        <select id="pregnancy_restriction" name="pregnancy_restriction">
+            <option value="no-selection" {% if selected_pregnancy_restriction == 'no-selection' %} selected {% endif %}>No Selection</option>
+            <option value="pregnant woman" {% if selected_pregnancy_restriction == 'pregnant woman' %} selected {% endif %}>Pregnant Woman</option>
+            <option value="newborn babies" {% if selected_pregnancy_restriction == 'newborn babies' %} selected {% endif %}>Newborn Babies</option>
+        </select>
+
+        <label for="sort_option">Sort by:</label>
+        <select id="sort_option" name="sort_option">
+            <option value="relevance" {% if sort_option == 'relevance' %} selected {% endif %}>Most Relevant</option>
+            <option value="time_to_prepare" {% if sort_option == 'time_to_prepare' %} selected {% endif %}>Time to Prepare</option>
+            <option value="similarity" {% if sort_option == 'similarity' %} selected {% endif %}>Similarity</option>
+        </select>
+
+        <input type="submit" value="Get Recommendations">
+    </form>
+
+    {% if recipes %}
+        <ul>
+        {% for recipe in recipes %}
+            <li>
+                <strong>{{ recipe['recipe_name'] }}</strong><br>
+                Ingredients: {{ recipe['ingredients'] }}<br>
+                Dietary Restrictions: {{ recipe['dietary_restrictions'] }}<br>
+                Time to Prepare: {{ recipe['time_to_prepare'] }}<br>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No recipes to show.</p>
+    {% endif %}
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#ingredientDropdown').select2({
+                placeholder: "Select ingredients",
+                allowClear: true
+            });
+        });
+    </script>
+</body>
+</html>

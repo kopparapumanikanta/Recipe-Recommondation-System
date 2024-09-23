@@ -1,0 +1,166 @@
+recipe_name,ingredients,dietary_restrictions,time_to_prepare,pregnant_women_safe,newborn_safe
+Spaghetti Aglio e Olio,"spaghetti, garlic, olive oil, chili flakes, parsley",vegetarian,20 minutes,Yes,No
+Chicken Salad,"chicken, lettuce, tomato, cucumber, olive oil","non-veg, gluten-free",15 minutes,No,No
+Vegetarian Stir Fry,"broccoli, bell pepper, carrot, soy sauce",vegetarian,25 minutes,Yes,Yes
+Mango Smoothie,"mango, yogurt, milk, honey",vegetarian,10 minutes,Yes,Yes
+Quinoa Salad,"quinoa, cucumber, tomato, feta cheese",vegetarian,15 minutes,Yes,Yes
+Lentil Soup,"lentils, carrots, celery, onion",vegan,30 minutes,Yes,Yes
+Pasta Primavera,"pasta, bell pepper, zucchini, olive oil",vegetarian,20 minutes,Yes,Yes
+Grilled Chicken Tacos,"chicken, taco shells, lettuce, salsa","non-veg",15 minutes,No,No
+Vegetable Curry,"mixed vegetables, coconut milk, curry powder",vegan,35 minutes,Yes,Yes
+Oatmeal Cookies,"oats, flour, brown sugar, butter",vegetarian,25 minutes,Yes,Yes
+Beef Stir Fry,"beef, broccoli, soy sauce, garlic","non-veg",30 minutes,No,No
+Caprese Salad,"mozzarella, tomatoes, basil, olive oil",vegetarian,15 minutes,Yes,Yes
+Chickpea Salad,"chickpeas, cucumber, tomatoes, lemon",vegan,20 minutes,Yes,Yes
+Pancakes,"flour, eggs, milk, syrup",vegetarian,15 minutes,Yes,Yes
+Tomato Basil Soup,"tomatoes, basil, garlic, cream",vegetarian,30 minutes,Yes,Yes
+Shrimp Fried Rice,"shrimp, rice, peas, soy sauce","non-veg",20 minutes,No,No
+Fruit Salad,"mixed fruits, honey, mint",vegan,10 minutes,Yes,Yes
+Vegetable Quesadilla,"tortillas, cheese, mixed vegetables",vegetarian,20 minutes,Yes,Yes
+Coconut Rice,"rice, coconut milk, salt",vegan,25 minutes,Yes,Yes
+Zucchini Bread,"zucchini, flour, sugar, eggs",vegetarian,50 minutes,Yes,Yes
+Mushroom Risotto,"rice, mushrooms, broth, parmesan",vegetarian,40 minutes,Yes,Yes
+Baked Salmon,"salmon, lemon, dill, garlic","non-veg",25 minutes,Yes,No
+Falafel Wrap,"falafel, pita, lettuce, tahini",vegan,15 minutes,Yes,Yes
+Stuffed Peppers,"bell peppers, rice, beans, cheese",vegetarian,40 minutes,Yes,Yes
+Cauliflower Tacos,"cauliflower, tortillas, avocado",vegan,30 minutes,Yes,Yes
+Pesto Pasta,"pasta, pesto, pine nuts, parmesan",vegetarian,20 minutes,Yes,Yes
+Eggplant Parmesan,"eggplant, marinara, mozzarella",vegetarian,60 minutes,Yes,Yes
+Butternut Squash Soup,"butternut squash, onion, cream",vegetarian,40 minutes,Yes,Yes
+Grilled Cheese Sandwich,"bread, cheese, butter",vegetarian,10 minutes,Yes,Yes
+BBQ Chicken Pizza,"pizza dough, chicken, BBQ sauce, cheese","non-veg",25 minutes,Yes,No
+Sweet Potato Fries,"sweet potatoes, olive oil, salt",vegan,30 minutes,Yes,Yes
+Chili,"beans, tomatoes, ground beef, spices","non-veg",45 minutes,No,No
+Baked Ziti,"ziti, marinara, mozzarella",vegetarian,35 minutes,Yes,Yes
+Greek Salad,"lettuce, tomatoes, olives, feta",vegetarian,15 minutes,Yes,Yes
+Rice and Beans,"rice, black beans, spices",vegan,25 minutes,Yes,Yes
+Peanut Butter Banana Smoothie,"banana, peanut butter, milk",vegetarian,5 minutes,Yes,Yes
+Hummus and Veggies,"hummus, carrots, cucumber, bell pepper",vegan,10 minutes,Yes,Yes
+Chicken Noodle Soup,"chicken, noodles, carrots, celery","non-veg",30 minutes,No,No
+Beef Tacos,"ground beef, taco shells, lettuce","non-veg",15 minutes,No,No
+Mushroom Soup,"mushrooms, cream, broth",vegetarian,30 minutes,Yes,Yes
+Roasted Brussels Sprouts,"brussels sprouts, olive oil, salt",vegan,25 minutes,Yes,Yes
+Quiche,"eggs, cheese, spinach, pie crust",vegetarian,45 minutes,Yes,Yes
+Cabbage Stir Fry,"cabbage, carrots, soy sauce",vegan,20 minutes,Yes,Yes
+Roasted Chickpeas,"chickpeas, olive oil, spices",vegan,30 minutes,Yes,Yes
+Pasta Salad,"pasta, vegetables, dressing",vegetarian,20 minutes,Yes,Yes
+Creamy Mushroom Pasta,"pasta, mushrooms, cream",vegetarian,25 minutes,Yes,Yes
+Sweet and Sour Chicken,"chicken, bell pepper, pineapple","non-veg",30 minutes,No,No
+Vegetable Lasagna,"lasagna noodles, cheese, mixed vegetables",vegetarian,50 minutes,Yes,Yes
+Chicken Fried Rice,"chicken, rice, vegetables","non-veg",20 minutes,No,No
+Spinach Feta Wrap,"spinach, feta, tortillas",vegetarian,15 minutes,Yes,Yes
+Pumpkin Soup,"pumpkin, cream, spices",vegetarian,30 minutes,Yes,Yes
+Egg Salad Sandwich,"eggs, mayo, lettuce, bread",vegetarian,15 minutes,Yes,Yes
+Vegetable Fried Rice,"rice, mixed vegetables, soy sauce",vegan,20 minutes,Yes,Yes
+Banana Bread,"bananas, flour, sugar, eggs",vegetarian,60 minutes,Yes,Yes
+Cheese Omelette,"eggs, cheese, bell pepper",vegetarian,10 minutes,Yes,Yes
+Tortellini Soup,"tortellini, spinach, broth",vegetarian,30 minutes,Yes,Yes
+Chocolate Chip Cookies,"flour, chocolate chips, sugar, butter",vegetarian,25 minutes,Yes,Yes
+Salmon Salad,"salmon, lettuce, avocado, dressing","non-veg",20 minutes,Yes,No
+Vegetable Samosas,"potatoes, peas, spices, dough",vegan,40 minutes,Yes,Yes
+Fruit Smoothie Bowl,"fruits, yogurt, granola",vegetarian,10 minutes,Yes,Yes
+Pasta Carbonara,"pasta, bacon, eggs, cheese","non-veg",30 minutes,No,No
+Tom Yum Soup,"shrimp, mushrooms, spices","non-veg",25 minutes,No,No
+Chickpea Curry,"chickpeas, coconut milk, spices",vegan,35 minutes,Yes,Yes
+Chicken Caesar Salad,"chicken, romaine, Caesar dressing","non-veg",20 minutes,No,No
+Vegetable Biryani,"rice, mixed vegetables, spices",vegan,50 minutes,Yes,Yes
+Baked Potatoes,"potatoes, butter, sour cream",vegetarian,60 minutes,Yes,Yes
+Shrimp Scampi,"shrimp, garlic, pasta","non-veg",25 minutes,No,No
+Cabbage Rolls,"cabbage, rice, meat, tomato sauce","non-veg",45 minutes,No,No
+Peach Cobbler,"peaches, sugar, flour, butter",vegetarian,50 minutes,Yes,Yes
+Teriyaki Chicken,"chicken, teriyaki sauce, rice","non-veg",25 minutes,No,No
+Mushroom Tacos,"mushrooms, tortillas, salsa",vegan,20 minutes,Yes,Yes
+Cucumber Salad,"cucumbers, yogurt, dill",vegetarian,10 minutes,Yes,Yes
+Tomato Quiche,"tomatoes, cheese, eggs, pie crust",vegetarian,45 minutes,Yes,Yes
+Ratatouille,"zucchini, eggplant, tomatoes, herbs",vegan,40 minutes,Yes,Yes
+Blueberry Muffins,"blueberries, flour, sugar, eggs",vegetarian,30 minutes,Yes,Yes
+Grilled Vegetable Sandwich,"grilled vegetables, bread",vegan,15 minutes,Yes,Yes
+Pineapple Fried Rice,"rice, pineapple, peas",vegan,20 minutes,Yes,Yes
+Zucchini Noodles,"zucchini, marinara, cheese",vegetarian,25 minutes,Yes,Yes
+Sweet Potato Casserole,"sweet potatoes, marshmallows",vegetarian,60 minutes,Yes,Yes
+Seafood Paella,"rice, shrimp, mussels","non-veg",45 minutes,No,No
+Bulgur Salad,"bulgur, vegetables, lemon",vegan,20 minutes,Yes,Yes
+Eggplant Rollatini,"eggplant, ricotta, marinara",vegetarian,50 minutes,Yes,Yes
+Honey Garlic Chicken,"chicken, honey, garlic","non-veg",25 minutes,No,No
+Spinach Mushroom Pizza,"pizza dough, spinach, mushrooms",vegetarian,30 minutes,Yes,Yes
+Avocado Toast,"bread, avocado, salt",vegan,10 minutes,Yes,Yes
+Chili Rellenos,"poblano peppers, cheese, eggs",vegetarian,35 minutes,Yes,Yes
+Lemon Garlic Shrimp,"shrimp, garlic, lemon","non-veg",20 minutes,No,No
+Grilled Corn Salad,"corn, tomatoes, cilantro",vegan,15 minutes,Yes,Yes
+Baked Apples,"apples, cinnamon, sugar",vegetarian,30 minutes,Yes,Yes
+Pumpkin Muffins,"pumpkin, flour, sugar, eggs",vegetarian,40 minutes,Yes,Yes
+Spicy Lentil Tacos,"lentils, tortillas, salsa",vegan,20 minutes,Yes,Yes
+Pasta Salad with Pesto,"pasta, pesto, cherry tomatoes",vegetarian,25 minutes,Yes,Yes
+Cranberry Sauce,"cranberries, sugar, water",vegan,15 minutes,Yes,Yes
+Oven-Baked Chicken,"chicken, spices, olive oil","non-veg",30 minutes,No,No
+Corn Chowder,"corn, potatoes, cream",vegetarian,30 minutes,Yes,Yes
+Shrimp Tacos,"shrimp, tortillas, cabbage","non-veg",20 minutes,No,No
+Stuffed Zucchini,"zucchini, rice, cheese",vegetarian,40 minutes,Yes,Yes
+Lemon Herb Quinoa,"quinoa, lemon, herbs",vegan,20 minutes,Yes,Yes
+Potato Pancakes,"potatoes, onions, eggs",vegetarian,30 minutes,Yes,Yes
+Chicken Fajitas,"chicken, bell peppers, tortillas","non-veg",25 minutes,No,No
+Carrot Cake,"carrots, flour, sugar, eggs",vegetarian,60 minutes,Yes,Yes
+Greek Yogurt Parfait,"yogurt, granola, berries",vegetarian,10 minutes,Yes,Yes
+Chicken Piccata,"chicken, lemon, capers","non-veg",30 minutes,No,No
+Pasta with Marinara Sauce,"pasta, marinara sauce, basil",vegetarian,20 minutes,Yes,Yes
+Vegetable Chow Mein,"noodles, vegetables, soy sauce",vegan,25 minutes,Yes,Yes
+Coconut Curry Chickpeas,"chickpeas, coconut milk, curry",vegan,35 minutes,Yes,Yes
+Maple Roasted Brussels Sprouts,"brussels sprouts, maple syrup",vegan,30 minutes,Yes,Yes
+Mushroom and Spinach Frittata,"mushrooms, spinach, eggs",vegetarian,25 minutes,Yes,Yes
+Grilled Chicken Salad,"chicken, mixed greens, dressing","non-veg",20 minutes,No,No
+Beef Stroganoff,"beef, mushrooms, sour cream","non-veg",45 minutes,No,No
+Vegetable Omelette,"eggs, bell peppers, onions",vegetarian,15 minutes,Yes,Yes
+Shrimp Pasta,"shrimp, pasta, garlic","non-veg",25 minutes,No,No
+Vegetable Sauté,"mixed vegetables, olive oil",vegan,15 minutes,Yes,Yes
+Peanut Butter Cookies,"peanut butter, flour, sugar",vegetarian,20 minutes,Yes,Yes
+Grilled Chicken Sandwich,"chicken, bread, lettuce","non-veg",15 minutes,No,No
+Stuffed Bell Peppers,"bell peppers, rice, cheese",vegetarian,40 minutes,Yes,Yes
+Cabbage Salad,"cabbage, carrots, dressing",vegan,15 minutes,Yes,Yes
+Chickpea and Spinach Stew,"chickpeas, spinach, spices",vegan,35 minutes,Yes,Yes
+Sweet Potato and Black Bean Tacos,"sweet potatoes, black beans, tortillas",vegan,30 minutes,Yes,Yes
+Oven-Baked Fries,"potatoes, olive oil, salt",vegan,30 minutes,Yes,Yes
+Zucchini Fritters,"zucchini, flour, eggs",vegetarian,25 minutes,Yes,Yes
+Cauliflower Curry,"cauliflower, coconut milk, spices",vegan,40 minutes,Yes,Yes
+Tuna Salad,"tuna, mayo, celery","non-veg",15 minutes,No,No
+Pasta with Broccoli,"pasta, broccoli, olive oil",vegetarian,20 minutes,Yes,Yes
+Chocolate Pudding,"chocolate, milk, sugar",vegetarian,15 minutes,Yes,Yes
+Salmon Cakes,"salmon, breadcrumbs, mayo","non-veg",25 minutes,Yes,No
+Lentil Salad,"lentils, cucumbers, tomatoes",vegan,20 minutes,Yes,Yes
+Fried Plantains,"plantains, oil, salt",vegan,15 minutes,Yes,Yes
+Creamy Spinach Pasta,"pasta, spinach, cream",vegetarian,25 minutes,Yes,Yes
+Beef and Broccoli Stir Fry,"beef, broccoli, soy sauce","non-veg",30 minutes,No,No
+Potato Salad,"potatoes, mayo, mustard",vegetarian,20 minutes,Yes,Yes
+Baked Eggplant,"eggplant, marinara, cheese",vegetarian,40 minutes,Yes,Yes
+Mango Salsa,"mango, onion, cilantro",vegan,10 minutes,Yes,Yes
+Kale Salad,"kale, dressing, nuts",vegan,15 minutes,Yes,Yes
+BBQ Pulled Pork Sandwich,"pulled pork, bun, BBQ sauce","non-veg",25 minutes,No,No
+Vegetable Sushi,"rice, nori, mixed vegetables",vegan,30 minutes,Yes,Yes
+Cranberry Almond Granola,"oats, cranberries, almonds",vegan,20 minutes,Yes,Yes
+Vegetarian Chili,"beans, tomatoes, spices",vegan,45 minutes,Yes,Yes
+Caprese Skewers,"mozzarella, tomatoes, basil",vegetarian,15 minutes,Yes,Yes
+Cornbread,"cornmeal, flour, milk",vegetarian,30 minutes,Yes,Yes
+Tomato Basil Bruschetta,"bread, tomatoes, basil",vegetarian,15 minutes,Yes,Yes
+Vegetable Pancakes,"mixed vegetables, flour",vegan,30 minutes,Yes,Yes
+Chili Garlic Noodles,"noodles, garlic, chili sauce",vegan,20 minutes,Yes,Yes
+Egg Drop Soup,"eggs, broth, green onions",vegetarian,15 minutes,Yes,Yes
+Pumpkin Pie,"pumpkin, pie crust, spices",vegetarian,60 minutes,Yes,Yes
+Sushi Rolls,"rice, nori, vegetables",vegan,30 minutes,Yes,Yes
+Fruit Sorbet,"fruits, sugar, water",vegan,20 minutes,Yes,Yes
+Coconut Chia Pudding,"coconut milk, chia seeds",vegan,10 minutes,Yes,Yes
+Stuffed Mushrooms,"mushrooms, cream cheese, herbs",vegetarian,25 minutes,Yes,Yes
+Balsamic Roasted Vegetables,"mixed vegetables, balsamic vinegar",vegan,30 minutes,Yes,Yes
+Creamy Avocado Pasta,"pasta, avocado, garlic",vegan,20 minutes,Yes,Yes
+Vegetable Pad Thai,"noodles, vegetables, sauce",vegan,30 minutes,Yes,Yes
+Homemade Pizza,"pizza dough, toppings",vegetarian,40 minutes,Yes,Yes
+Spinach and Cheese Stuffed Shells,"pasta, spinach, cheese",vegetarian,50 minutes,Yes,Yes
+Thai Green Curry,"tofu, coconut milk, vegetables",vegan,40 minutes,Yes,Yes
+Honey Garlic Tofu,"tofu, honey, garlic",vegetarian,25 minutes,Yes,Yes
+Falafel,"chickpeas, herbs, spices",vegan,30 minutes,Yes,Yes
+Avocado Chocolate Mousse,"avocado, cocoa powder, sugar",vegan,10 minutes,Yes,Yes
+Vegetarian Jambalaya,"rice, vegetables, spices",vegan,40 minutes,Yes,Yes
+Baked Falafel,"chickpeas, herbs, spices",vegan,30 minutes,Yes,Yes
+Coconut Mango Rice,"rice, coconut milk, mango",vegan,25 minutes,Yes,Yes
+Beef Burgers,"ground beef, buns, toppings","non-veg",30 minutes,No,No
+Cauliflower Buffalo Wings,"cauliflower, hot sauce",vegan,30 minutes,Yes,Yes
+Oven-Baked Chicken Wings,"chicken wings, spices","non-veg",30 minutes,No,No
+Vegan Tacos,"tortillas, beans, avocado",vegan,20 minutes,Yes,Yes
