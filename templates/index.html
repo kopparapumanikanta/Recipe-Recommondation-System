@@ -7,24 +7,31 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #f4f4f9;
             margin: 0;
             padding: 20px;
+            color: #444;
         }
 
         h1 {
             text-align: center;
-            color: #333;
+            color: #ffffff;
+            background-color: #007bff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s;
         }
 
         form {
             max-width: 600px;
-            margin: 0 auto;
+            margin: 20px auto;
             background-color: #fff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideIn 0.5s;
         }
 
         label {
@@ -38,8 +45,15 @@
             width: 100%;
             padding: 10px;
             margin-top: 5px;
-            border: 1px solid #ccc;
+            border: 1px solid #007bff;
             border-radius: 5px;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        select:focus {
+            border-color: #0056b3;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
         }
 
         input[type="submit"] {
@@ -51,10 +65,58 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
         }
 
         input[type="submit"]:hover {
             background-color: #218838;
+            transform: scale(1.05);
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+            animation: fadeIn 1s;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+            animation-delay: 0.5s;
+        }
+
+        li {
+            background-color: #e9ecef;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        li:hover {
+            transform: scale(1.02);
+        }
+
+        li strong {
+            color: #007bff;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
     </style>
 </head>
@@ -97,6 +159,7 @@
     </form>
 
     {% if recipes %}
+        <h2>Recommended Recipes:</h2>
         <ul>
         {% for recipe in recipes %}
             <li>
@@ -108,7 +171,7 @@
         {% endfor %}
         </ul>
     {% else %}
-        <p>No recipes to show.</p>
+        <p>No recipes to show. Please select ingredients and submit to get recommendations.</p>
     {% endif %}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
