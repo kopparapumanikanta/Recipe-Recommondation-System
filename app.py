@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 import pandas as pd
-<<<<<<< HEAD
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -105,7 +104,6 @@ def recommend():
 
 if __name__ == '__main__':
     app.run(debug=True)
-=======
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.model_selection import train_test_split
