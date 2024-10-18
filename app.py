@@ -203,4 +203,3 @@ Cosine Similarity: This is used to find the similarity between the selected ingr
 
 In summary, you effectively integrated both NLP and ML techniques to create a recommendation system for recipes based on user input! If you need help with further enhancements or explanations, feel free to ask!
 '''
->>>>>>> 6799016a1c901e691f8ce7f0aeef2f65855d664b
